@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<style type= "text/css">
+</style>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>矢量分析</title>
+    <meta charset="utf-8">
+
+    <!-- Linking styles -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen">
+
+    <!-- Linking scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>   
+    <script src="js/main.js"></script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header><!-- define the header section -->
+    <div class="header_img"><img src="../image/电磁1.jpg" alt="" width="290" height="130"></div>
+  <div class="header_title">Electrodynamics for babies</div>
+    <div class="logo"><img src="../image/电动力学封面1.jpeg" alt="电动力学" width="290"></div>
+	
+    <nav class="primary">
+        <ul><!-- define the navigation menu -->
+            <li class="active"><a href="../index.html">主页</a></li>
+            <li><a href="../web/矢量分析.html">矢量分析</a></li>
+            <li><a href="../web/数学方法.html">数学方法</a></li>
+            <li><a href="../web/电动力学与守恒定律.html">守恒定律</a></li>
+            <li><a href="../web/电动力学与狭义相对论.html">电动力学与狭义相对论</a></li>
+        </ul>
+    </nav>
+
+    <section id="slider-wrapper"><!-- define the slider section -->
+		<img src="../image/学习.jpeg" alt="" width="500"/>
+    </section>
+</header>
+
+<div class="wrap">
+    <div id="sidebar"><!-- define the sidebar -->
+        <ul class="extra_menu"><!-- define extra menu block -->
+            <li><a href="../index.html">主页</a></li>
+            <li><a href="../web/矢量分析.html">矢量分析</a></li>
+            <li><a href="../web/数学方法.html">数学方法</a></li>
+            <li><a href="../web/电动力学与守恒定律.html">守恒定律</a></li>
+            <li><a href="../web/电动力学与狭义相对论.html">电动力学与狭义相对论</a></li>
+        </ul>
+
+        <div id="wid1" class="widget"><!-- define the artists block -->
+            <h3>Scientists</h3>
+            <ul class="artists">
+                <li>
+                    <a href="#"><img src="../image/麦克斯韦.jpeg" alt="artist #1" width="140" height="176" title="artist #1" /></a>
+                  <div class="name"><a href="#" title="artist #1">Maxwell</a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../image/爱因斯坦.jpeg" alt="artist #2" width="176" height="176" title="artist #2" /></a>
+                  <div class="name"><a href="#" title="artist #2">Einstein</a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../image/朗道.jpeg" alt="artist #3" width="140" height="176" title="artist #3" /></a>
+                  <div class="name"><a href="#" title="artist #3">Landau</a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../image/费曼.jpeg" alt="artist #4" width="176" height="176" title="artist #4" /></a>
+                  <div class="name"><a href="#" title="artist #4">Feynman</a></div>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+
+        <img src="../image/电动力学导论.jpg" alt=""/><br /><br />
+
+        <div id="wid2" class="friends widget">
+            <h3>Learn more</h3>
+            <div><a href="https://www.zhihu.com/" title="Zhi hu">知乎</a></div>
+            <div><a href="https://www.bilibili.com/" title="Bilibili">Bilibili</a></div>
+        </div>
+    </div>
+
+    <div id="content">
+        <h3>矢量分析</h3>
+        <ul class="posts">
+            <li>
+                <a href="#"><img src="../image/梯度.png" width="200" height="100" /></a>
+                <h5><a href="#"></a></h5>
+                <div class="description">矢量分析在场论中非常重要，而三个基本算子（梯度、散度与旋度）是构成<span style="font-size: 16px">各</span>种复杂关系式的基础，下面逐一介绍，应特别注意散度与旋度的基本定义与物理意义。梯度物理意义为：在某个场中，某点某物理参数增加最快的方向，梯度大小就是增加率。因此，梯度越大，增加越快。举个例子，我们站在山脚爬山时（此山只有一个山峰），我们迈步第一步的方向有无数个，若想走最短路程到达山顶，此时应沿梯度方向迈出，以此类推，直至到达山顶。</div>
+            </li>
+			<li>
+                <a href="#"><img src="../image/散度.png" width="200" height="100" /></a>
+                <h5><a href="#"></a></h5>
+                <div class="description">某点散度代表了该点向外的通量体密度，其物理意义可以理解为：定量给出向量场中任一点是否为源点或汇点。若某点散度等于0，则说明其通量为0，流进=流出；若某点散度大于0，说明流出>流进，相当于一个源点(source)；若某点散度小于0，说明流出小于流进，相当于一个汇点(sink）</div>
+            </li>
+			<li>
+                <a href="#"><img src="../image/旋度.png"  width="200" height="100"/></a>
+                <h5><a href="#"></a></h5>
+                <div class="description">这个式子代表：矢量场 F在p 点的旋度与单位向量的点积等于以此单位向量为外法线的无穷小曲面的环量面密度。注意线积分方向为逆时针；若为顺时针，前面应该加上负号。即旋度逆时针方向为正，反之为负。</div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div class="footer">
+        <div>
+            <h4>(虚假的按钮）联系我（FIND ME!）</h4>
+            <ul class="social">
+                <li><a target="_blank" rel="nofollow" href="#" title="Our RSS"> <img src="../image/rss.png" alt="RSS"></a></li>
+                <li><a target="_blank" rel="nofollow" href="#"> <img alt="facebook" src="../image/facebook.png"></a></li>
+                <li><a target="_blank" rel="nofollow" href="#"> <img alt="twitter" src="../image/twitter.png"></a></li>
+                <li><a target="_blank" rel="nofollow" href="#"> <img alt="facebook" src="../image/stumbleupon.png"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body></html>
